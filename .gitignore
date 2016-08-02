@@ -1,0 +1,34 @@
+# Windows
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea
+*.iml
+
+# Gradle
+.gradle
+
+# Java
+*.class
+
+# Android
+*.apk
+*.ap_
+*.dex
+_sandbox
+
+# Generated
+bin/
+gen/
+out/
+/captures
+/build
+proguard-mapping.txt
+
+# Local
+/local.properties
+
+# Other
+*.orig
+*.log
