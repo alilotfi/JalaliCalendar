@@ -1,11 +1,20 @@
-apply plugin: 'java'
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.1.0'
+    }
+}
 
 repositories {
     mavenCentral()
 }
 
+apply plugin: 'java'
+
 dependencies {
-    compile 'org.testng:testng:6.9.6'
+    compile 'org.testng:testng:6.9.10'
 }
 
 sourceCompatibility = "1.7"
